@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --accent: #FF6B00;
+  --glow-purple: #8B5CF6;
+  --glow-orange: #F97316;
+  --glow-green: #22C55E;
+  --glow-pink: #EC4899;
+  --glow-blue: #3B82F6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-orange: var(--accent);
+  --color-brand-purple: var(--glow-purple);
+  --color-brand-green: var(--glow-green);
+  --color-brand-pink: var(--glow-pink);
+  --color-brand-blue: var(--glow-blue);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
