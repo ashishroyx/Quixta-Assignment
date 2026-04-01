@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Quixta Frontend Assignment
 
-## Getting Started
+##  Project Overview
 
-First, run the development server:
+This project is a **frontend assignment for Quixta**, where I was given a task to implement a UI based on a provided Figma design.
+
+*  **Figma Design:** [https://www.figma.com/design/MyYlgFfwnXjihVNi3G5tiV/Frontend-Developer-Assignment?node-id=0-231&t=pq5lytjBKhMtcO5Z-0]
+*  **Live Site:** [https://quixta-assignment.vercel.app/]
+
+The goal was to accurately translate the design into a responsive, performant, and visually appealing web application using modern frontend technologies.
+
+---
+
+##  Tech Stack
+
+### Core
+
+* **Next.js** (v16.2.1)
+* **React** (v19.2.4)
+* **TypeScript**
+
+### Styling & UI
+
+* **Tailwind CSS** (v4)
+* **Framer Motion** (animations)
+* **Lucide React Icons**
+* **React Icons**
+
+---
+
+##  Setup Instructions
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone <https://github.com/ashishroyx/Quixta-Assignment>
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Open in browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##  Deployment Instructions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is deployed using **Vercel**.
 
-## Deploy on Vercel
+### Steps to deploy:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your project to GitHub
+2. Go to **Vercel**
+3. Click **"New Project"**
+4. Import your GitHub repository
+5. Configure (auto-detected for Next.js)
+6. Click **Deploy**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Your app will be live in a few seconds 
+
+---
+
+
+
+---
+
+> Built as part of a frontend assignment for Quixta.
