@@ -15,14 +15,14 @@ The goal was to accurately translate the design into a responsive, performant, a
 
 ### Core
 
-* **Next.js** (v16.2.1)
-* **React** (v19.2.4)
+* **Next.js** 
+* **React** 
 * **TypeScript**
 
 ### Styling & UI
 
-* **Tailwind CSS** (v4)
-* **Framer Motion** (animations)
+* **Tailwind CSS** 
+* **Framer Motion** 
 * **Lucide React Icons**
 * **React Icons**
 
