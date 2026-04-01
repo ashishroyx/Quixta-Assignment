@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import { Brand } from './BrandProps';
 import { Button } from './Button';
 
@@ -8,7 +7,7 @@ export function SolutionsTrackSection() {
     return (
         <section className="relative w-full bg-black overflow-hidden py-32 px-6 md:px-24 min-h-[1200px]">
 
-            {/* 1. THE CONTINUOUS SVG TRACK (Background Layer) */}
+
             <div className="absolute inset-0 z-0 pointer-events-none">
                 <svg
                     width="100%"
@@ -21,28 +20,28 @@ export function SolutionsTrackSection() {
                 >
                     <defs>
                         <linearGradient id="sTrackGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stopColor="#FF7300" /> {/* Orange start */}
-                            <stop offset="100%" stopColor="#6B0BEC" /> {/* Purple end */}
+                            <stop offset="0%" stopColor="#FF7300" />
+                            <stop offset="100%" stopColor="#6B0BEC" />
                         </linearGradient>
                     </defs>
 
-                    {/* The Triple-Line "S" Path */}
+
                     <g transform="translate(80, 0)">
-                        {/* Middle Broad Line */}
+
                         <path
                             d="M 0 0 V 150 Q 0 250 100 250 H 800 Q 900 250 900 350 V 1200"
                             stroke="url(#sTrackGradient)"
                             strokeWidth="6"
                             strokeLinecap="round"
                         />
-                        {/* Left/Outer Thin Line */}
+
                         <path
                             d="M -8 0 V 150 Q -8 258 100 258 H 800 Q 892 258 892 350 V 1200"
                             stroke="url(#sTrackGradient)"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                         />
-                        {/* Right/Inner Thin Line */}
+
                         <path
                             d="M 8 0 V 150 Q 8 242 100 242 H 800 Q 908 242 908 350 V 1200"
                             stroke="url(#sTrackGradient)"
@@ -53,7 +52,7 @@ export function SolutionsTrackSection() {
                 </svg>
             </div>
 
-            {/* 2. CONTENT LAYER (Aligned with the Track) */}
+
             <div className="relative z-10 max-w-7xl mx-auto">
                 <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight mb-32 max-w-2xl">
                     Advanced Materials and <br /> Integrative Solutions
@@ -61,7 +60,7 @@ export function SolutionsTrackSection() {
 
                 <div className="flex flex-col gap-64">
 
-                    {/* Solution 1: Top Left Alignment */}
+
                     <div className="flex flex-col md:flex-row gap-12 items-start max-w-4xl">
                         <div className="shrink-0">
                             <Brand src="/blogo2.png" alt="Idylle" />
@@ -78,7 +77,7 @@ export function SolutionsTrackSection() {
                         </div>
                     </div>
 
-                    {/* Solution 2: Bottom Right Alignment */}
+
                     <div className="flex flex-col md:flex-row-reverse gap-12 items-start max-w-4xl self-end text-right md:text-left">
                         <div className="shrink-0">
                             <Brand src="/blogo1.png" alt="Labscoop" />

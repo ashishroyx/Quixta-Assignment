@@ -3,7 +3,7 @@ import React from 'react';
 interface InnovationCardProps {
     title: string;
     summary: string;
-    backgroundImage: string; // The path to your actual .png or .jpg asset
+    backgroundImage: string;
 }
 
 const InnovationCard: React.FC<InnovationCardProps> = ({ title, summary, backgroundImage }) => {
@@ -17,7 +17,7 @@ const InnovationCard: React.FC<InnovationCardProps> = ({ title, summary, backgro
                 backgroundRepeat: 'no-repeat'
             }}
         >
-            {/* 1. CONTENT LAYER */}
+
             <div className="relative z-10 flex flex-col gap-6">
                 <h2 className="text-xl md:text-2xl font-semibold text-white tracking-tight">
                     {title}
@@ -33,8 +33,7 @@ const InnovationCard: React.FC<InnovationCardProps> = ({ title, summary, backgro
                 </div>
             </div>
 
-            {/* 2. SOFT VIGNETTE (Optional) */}
-            {/* This ensures that if your image is very bright, the top text stays readable */}
+
             <div className="absolute inset-0 bg-black/10 pointer-events-none group-hover:bg-transparent transition-colors duration-500" />
         </div>
     );

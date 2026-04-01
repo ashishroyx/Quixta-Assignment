@@ -1,7 +1,7 @@
 export function HeroSection() {
   return (
     <section className="relative w-full min-h-screen bg-black overflow-hidden flex items-center justify-center">
-      {/* 1. Background Video */}
+
       <video
         autoPlay
         loop
@@ -13,32 +13,29 @@ export function HeroSection() {
         Your browser does not support the video tag.
       </video>
 
-      {/* 2. Responsive Radial Gradient Overlay */}
+
       <div
         className="absolute inset-0 z-10 pointer-events-none"
         style={{
-          // On mobile, 'ellipse' will naturally be taller. 
-          // Adjusted percentages to be softer so the video doesn't feel like a tiny dot.
           background: 'radial-gradient(ellipse at center, transparent 10%, rgba(0,0,0,0.8) 50%, black 60%)',
         }}
       />
 
-      {/* 3. Content Container */}
+
       <div className="relative z-20 w-full max-w-7xl mx-auto flex flex-col items-center justify-center px-6 text-center gap-6 md:gap-8 pt-20 md:pt-32 pb-12">
 
-        {/* Main Headline */}
-        {/* Adjusted mobile text size to 4xl/5xl so "Advanced Materials" fits better */}
+
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-7xl text-white tracking-tighter leading-[1.1] max-w-[15ch] md:max-w-4xl font-bold uppercase">
           Future of <span className="block md:inline">Advanced Materials</span>
         </h1>
 
-        {/* Subtitle / Description */}
+
         <p className="mt-2 md:mt-8 text-sm sm:text-lg md:text-xl text-white/70 max-w-[320px] sm:max-w-xl md:max-w-2xl font-light leading-relaxed">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.
         </p>
 
-        {/* Centered CTA Button */}
+
         <button className="mt-6 md:mt-8 flex items-center gap-2.5 px-5 py-2 md:px-8 md:py-2 bg-white text-black rounded-xl text-sm md:text-base font-bold hover:bg-gray-200 transition-all active:scale-95">
           Get Started
         </button>

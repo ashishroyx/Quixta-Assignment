@@ -17,30 +17,30 @@ const WhatsNewCard: React.FC<WhatsNewCardProps> = ({ title, date, summary, backg
                 backgroundPosition: 'center'
             } : {}}
         >
-            {/* Content Layer */}
+
             <div className="relative z-10 flex flex-col h-full">
-                {/* Title */}
+
                 <h3 className="text-white text-xl md:text-2xl font-medium leading-snug mb-8">
                     {title}
                 </h3>
 
-                {/* Date */}
+
                 <p className="text-gray-500 text-sm mb-6">
                     {date}
                 </p>
 
-                {/* Summary */}
+
                 <p className="text-gray-400 text-sm md:text-base leading-relaxed mb-auto">
                     {summary}
                 </p>
 
-                {/* Button Style from Image */}
+
                 <button className="w-fit mt-8 px-8 py-3 rounded-xl border border-white/10 bg-transparent text-white text-sm font-medium transition-all hover:bg-white hover:text-black">
                     Read More
                 </button>
             </div>
 
-            {/* Gradient Overlay only if background image exists */}
+
             {backgroundImage && (
                 <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/60 to-black pointer-events-none" />
             )}
