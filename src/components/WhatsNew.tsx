@@ -7,22 +7,25 @@ export function WhatsNew() {
             title: "Brand Unveils Breakthrough in Product Authentication Technology",
             date: "March 08, 2025",
             summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.",
-            backgroundImage: "/news-bg-1.png"
+            backgroundImage: "/bg-card-1.jpg"
         },
         {
             title: "LumiLab — Exploring the science and innovation behind luminescent materials.",
             date: "March 08, 2025",
             summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.",
+            backgroundImage: "/bg-card-2.jpg"
         },
         {
             title: "The Glow Factor — Trends, discoveries, and applications in photonic materials.",
             date: "March 08, 2025",
             summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.",
+            backgroundImage: "/bg-card-3.jpg"
         },
         {
             title: "Brand Unveils Breakthrough in Product Authentication Technology",
             date: "March 08, 2025",
             summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.",
+            backgroundImage: "/bg-card-4.jpg"
         }
     ];
 
